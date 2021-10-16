@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  generate-table:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: generate-table
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
