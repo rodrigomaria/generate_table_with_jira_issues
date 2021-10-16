@@ -17,7 +17,7 @@ $ make run
 
 ## How to use:
 1. Firstly, you need a download your JIRA file in CSV format. You will have to open the Sprint Report in Jira, in this url `{YOUR BOARD URL}/reports/sprint-retrospective`.
-2. It will open in the last completed sprint. You should find a "View in Issue Navigator" link. Click on it.
+2. It will open in the last completed sprint. You should find a "View in Issue Navigator" link on the Completed Issues block. Click on it.
 3. You need to click in Export button, and after, click in "Export Excel CSV" (any of the options).
 4. Move the downloaded file to [data_files](./data_files) folder.
 5. Run the Makefile command `make create_json`. It will create the SPRINT.json file.
