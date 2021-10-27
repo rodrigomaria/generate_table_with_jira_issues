@@ -14,8 +14,8 @@ with open(CSV_FILE) as csvFile:
                 "Issue key": row["Issue key"],
                 "Summary": row["Summary"],
                 "Issue Type": row["Issue Type"],
-                "Date": "DD/MM/YYYY***",
-                "Environment": "ENV***",
+                "Date": "DATE",
+                "Environment": "ENVIRONMENT",
             }
 
 with open(JSON_FILE, "w") as jsonFile:

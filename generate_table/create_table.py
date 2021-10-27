@@ -8,7 +8,7 @@ from termcolor import colored
 table = PrettyTable()
 table.align = "l"
 table.set_style(DEFAULT)
-table.field_names = ["Key", "Summary", "Issue Type", "Date", "Enviroment"]
+table.field_names = ["Key", "Summary", "Issue Type", "Date", "Environment"]
 
 
 with open(JSON_FILE) as json_file:
