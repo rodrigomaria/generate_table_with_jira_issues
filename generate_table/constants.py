@@ -5,6 +5,8 @@ COLORS = {
     "Bug (Externally Detected)": "red",
     "Task": "blue",
     "Discovery": "yellow",
+    "Spike": "yellow",
+    "Learning": "yellow",
     "Story": "white",
     "Improvement": "green",
 }
