@@ -12,6 +12,7 @@ help: ## show the make help
 	@echo '- make sh'
 	@echo '- make create_json'
 	@echo '- make create_table'
+	@echo '- make remove_files'
 	@echo ''
 	@echo 'targets:'
 	@egrep '^(.+)\:\ .*##\ (.+)' ${MAKEFILE_LIST} | sed 's/:.*##/#/' | column -t -c 2 -s '#'
