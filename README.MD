@@ -26,6 +26,8 @@ $ make run
 
 6. After this, run the Makefile command `make create_table` and your table is show. DONE!
 
+7. For clean the files exists in [data_files](./data_files) folder, run the Makefile command `make remove_files`.
+
 ![](docs/printed_table.png)
 
 Created by: [Rodrigo Maria Morgão](mailto:rodrigo@rodrigomaria.com.br).
