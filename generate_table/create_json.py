@@ -14,7 +14,7 @@ with open(CSV_FILE) as csvFile:
                 "Issue key": row["Issue key"],
                 "Summary": row["Summary"],
                 "Issue Type": row["Issue Type"],
-                "Date": "DATE",
+                "Date": "/2022",
                 "Environment": "ENVIRONMENT",
             }
 
