@@ -39,5 +39,4 @@ create_table: ## get the json file informations and generate a table
 	@ $(EXEC) python generate_table/create_table.py
 
 remove_files: ## remove files in data_files
-	@ $(EXEC) /bin/sh -c "rm data_files/JIRA.csv"
-	@ $(EXEC) /bin/sh -c "rm data_files/SPRINT.json"
+	@ $(EXEC) /bin/sh -c "rm data_files/JIRA.csv data_files/SPRINT.json"
