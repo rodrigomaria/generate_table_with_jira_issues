@@ -1,4 +1,4 @@
-prettytable==2.2.1
+prettytable==3.1.1
 termcolor==1.1.0
 isort==5.9.3
 black==21.7b0
