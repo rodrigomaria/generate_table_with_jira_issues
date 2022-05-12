@@ -1,8 +1,8 @@
 CSV_FILE = "./data_files/JIRA.csv"
 JSON_FILE = "./data_files/SPRINT.json"
 COLORS = {
-    "Bug (Internally Detected)": "red",
-    "Bug (Externally Detected)": "red",
+    "Bug (In Dev/Stage)": "red",
+    "Bug (In Production)": "red",
     "Task": "blue",
     "Discovery": "yellow",
     "Spike": "yellow",
